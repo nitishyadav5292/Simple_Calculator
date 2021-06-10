@@ -1,0 +1,77 @@
+h1{
+    color:aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+}
+#calculator{
+    width: 400px;
+    height: 600px;
+    background-color:whitesmoke;
+    margin-left: 560px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#Calculation{
+    width: 400px;
+    height: 70px;
+    text-align: right;
+    font: bolder;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+#Result{
+    width: 400px;
+    height: 70px;
+    text-align: right;
+    font: bolder;
+    font-size: 50px;
+}
+.Operator, .Numbers{
+    color: white;
+    background-color: black;
+    font:bolder;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;
+    font-weight:bold ;
+    cursor: pointer;
+}
+
+.Operator:active, .Numbers:active{
+    font-size: 10px;
+} 
+
+.Operator:focus, .Numbers:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 15px; 
+    background-color:saddlebrown;
+}
+button:nth-child(8){
+    font-size: 15px; 
+    background-color:saddlebrown;
+}
+button:nth-child(12){
+    font-size: 15px; 
+    background-color:saddlebrown;
+}
+button:nth-child(16){
+    font-size: 15px; 
+    background-color:saddlebrown;
+}
+button:nth-child(20){
+    font-size: 15px; 
+    background-color:saddlebrown;
+}
